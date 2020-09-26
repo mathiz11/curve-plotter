@@ -45,22 +45,30 @@ To launch the project, I use [chocolatey](https://chocolatey.org/)
 
 To install you need to launch this command on your PowerShell in admin mode :
 
-```console
-PS C:\Users\foo> chocolatey install mingw
-PS C:\Users\foo> chocolatey install make
+```powershell
+chocolatey install mingw
+chocolatey install make
+```
 
-PS C:\Users\foo\curve-plotter\windows> make
+Go to windows folder in the project and launch this :
+
+```powershell
+make
 ```
 
 ### Linux
 
 To install you need to launch this command on your terminal :
 
-```console
-foo@pc:~ sudo apt install build-essential
-foo@pc:~ sudo apt install make
+```bash
+sudo apt install build-essential
+sudo apt install make
+```
 
-foo@pc:~/curve-plotter/unix make
+Go to unix folder in the project and launch this :
+
+```bash
+make
 ```
 
 ## Usage
@@ -70,12 +78,12 @@ You can create your own configuration file
 
 ### Windows
 
-```console
+```powershell
 PS C:\Users\foo\curve-plotter\windows> main.exe fichier1.txt
 ```
 
 ### Linux
 
-```console
-foo@pc:~/curve-plotter/unix ./main fichier1.txt
+```bash
+./main fichier1.txt
 ```
