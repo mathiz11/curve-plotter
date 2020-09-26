@@ -79,7 +79,7 @@ You can create your own configuration file
 ### Windows
 
 ```powershell
-PS C:\Users\foo\curve-plotter\windows> main.exe fichier1.txt
+main.exe fichier1.txt
 ```
 
 ### Linux
